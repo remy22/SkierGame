@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MainClass.GameObject" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAACAAAIAAABAAAAAAABAQAQAAAoAAAIACAAGAEAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MainClass.Skier" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAIAAAAAAAAAAEAAAAAAAAoAIQAAAAAAAAAA=</HashCode>
+      <FileName>Skier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainClass.Decoration" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decoration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainClass.ConsoleRenderer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABAAAAAAAAAAAABAAAAIAAAAAAAAAACAIAAAAAAA=</HashCode>
+      <FileName>ConsoleRenderer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MainClass.KeyboardControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAEAAAAAAgAAAAAAAAAAAACAA=</HashCode>
+      <FileName>KeyboardControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MainClass.FieldCoordinates" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAwAEAAAAAAAEAAoAAAAAAAAAAAAA=</HashCode>
+      <FileName>FieldCoordinates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainClass.CollisionData" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>CollisionData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainClass.Tree" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAAAAIAAABAAAAAAAABAAAAAAoAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainClass.Obstacle" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Obstacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainClass.Engine" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAACAKAAAAAAAAAAAAABAgCAAAABAAAAABEgCI=</HashCode>
+      <FileName>Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainClass.MainClass" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAABAABAAAAAA=</HashCode>
+      <FileName>MainClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainClass.Bonus" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAIAAAAAAAIAAAAAAAAAAAoAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainClass.CollisionHandler" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CollisionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MainClass.IRenderable" Collapsed="true">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>IRenderable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MainClass.IUserController" Collapsed="true">
+    <Position X="11.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAEAAAAAAgAAAAAAAAAAAACAA=</HashCode>
+      <FileName>IUserController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MainClass.IObjectProducer" Collapsed="true">
+    <Position X="11.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>IObjectProducer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MainClass.IColidable" Collapsed="true">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAIAAAAAAAAAAAAAAAAAAAIAAAAAAAACAAAA=</HashCode>
+      <FileName>IColidable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MainClass.IRenderer" Collapsed="true">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAIAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>IRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
